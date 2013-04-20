@@ -1,6 +1,165 @@
-/* Welcome to Compass.
- * In this file you should write your main styles. (or centralize your imports)
- * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+@import 'normalize';
+@import 'carousel';
+@import 'susy';
+@import 'compass/utilities/general/clearfix';
+@import 'compass/css3';
+@import 'compass/typography/text/replacement';
 
-@import "compass/reset";
+$total-columns: 4;
+$column-width: 215px;
+$gutter-width: 20px;
+$grid-padding: 20px;
+
+$red: #d31f29;
+$beige: #f4e8b6;
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+html body {
+    background: url(../images/bg.jpg) no-repeat center top;
+    background-attachment: fixed;
+    height: auto;
+    min-height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: $red;
+
+    &:hover, &:active, &:focus {
+        @include text-shadow(black 0 0 1em);
+        text-decoration: none;
+    }
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'brioso-pro-display', serif;
+    font-style: italic;
+    color: $red;
+    margin-bottom: 0;
+}
+h3 {
+    font-size: 2em;
+    font-weight: 500;
+}
+h4 {
+    font-size: 1.5em;
+    font-weight: 500;
+}
+h5 {
+    font-size: 1.25em;
+    font-weight: 400;
+}
+h6 {
+    font-size: 1.1em;
+    font-weight: 300;
+}
+
+p {
+    margin: 0 0 1em;
+}
+
+#Container {
+    @include container;
+    background: white;
+
+    &>header {
+        float: left;
+        width: 100%;
+        position: relative;
+
+        h1 {
+            position: relative;
+            margin: 25px 0 0;
+            z-index: 2;
+
+            a {
+                @include replace-text-with-dimensions('logo.jpg');
+                display: block;
+            }
+        }
+
+        .carousel {
+            margin: 70px (0 - $grid-padding) (-111px + 41px);
+            top: -111px;
+
+            &:after {
+                content: ' ';
+                background: url('../images/header-window.png') no-repeat left top;
+                position: absolute;
+                top: -70px;
+                right: 0;
+                bottom: -70px;
+                left: 0;
+            }
+        }
+
+        h2.pagetitle {
+            @include transform(rotate(-12deg));
+            font-family: 'brioso-pro-display', serif;
+            font-weight: 300;
+            font-style: italic;
+            position: absolute;
+            top: 40px;
+            left: 670px;
+            color: $red;
+            margin: 0;
+            font-size: 50px;
+        }
+
+        #f-logo {
+            position: absolute;
+            top: 11px;
+            right: 0;
+            @include replace-text-with-dimensions('f-logo.png');
+        }
+    }
+
+    &>nav {
+        @include span-columns(1);
+        font-family: 'brioso-pro-display', serif;
+        font-weight: 300;
+        font-style: italic;
+
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            font-size: 32px;
+        }
+
+        a {
+            padding: .1em 0;
+            display: block;
+            border-bottom: 1px solid $red;
+        }
+    }
+
+    &>footer {
+        @include bleed($grid-padding);
+        clear: both;
+        background: $beige;
+        color: $red;
+        height: 4em;
+        line-height: 4em;
+        text-align: center;
+
+        p {
+            margin: 0;
+        }
+    }
+}
+
+#InnerContainer {
+    @include span-columns(3 omega);
+}
+
+div[role="main"] {
+    :first-child {
+        margin-top: 0;
+    }
+}
