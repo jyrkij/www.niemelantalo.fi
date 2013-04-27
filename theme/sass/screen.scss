@@ -133,7 +133,7 @@ p {
         a {
             padding: .4em 0;
             display: block;
-            border-bottom: 1px solid $red;
+            border-top: 1px solid $red;
         }
 
         ul {
@@ -149,7 +149,7 @@ p {
                 font-size: .8em;
 
                 a {
-                    border-bottom: none;
+                    border-top: none;
                 }
             }
         }
@@ -157,6 +157,12 @@ p {
         li.active {
             ul {
                 display: block;
+            }
+        }
+
+        li:first-child {
+            a {
+                border-top: 0;
             }
         }
 
@@ -185,11 +191,12 @@ p {
     @include at-breakpoint($breakpoint) {
         @include span-columns(3 omega);
         margin-top: 1em;
+        margin-bottom: 1em;
     }
 }
 
 div[role="main"] {
-    :first-child {
+    h3:first-child {
         @include at-breakpoint($breakpoint) {
             margin-top: 0;
         }
