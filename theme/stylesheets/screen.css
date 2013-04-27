@@ -500,20 +500,21 @@ html body {
   background-attachment: fixed;
   height: auto;
   min-height: 100%;
+  padding: 2em 0;
 }
 
-/* line 34, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
+/* line 35, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
 a {
   text-decoration: none;
   color: #d31f29;
 }
-/* line 38, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
+/* line 39, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
 a:hover, a:active, a:focus {
   text-shadow: black 0 0 1em;
   text-decoration: none;
 }
 
-/* line 44, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
+/* line 45, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'brioso-pro-display', serif;
   font-style: italic;
@@ -521,7 +522,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0;
 }
 
-/* line 50, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
+/* line 51, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
 h3 {
   font-size: 2em;
   line-height: 1;
@@ -529,34 +530,34 @@ h3 {
   font-weight: 500;
 }
 
-/* line 56, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
+/* line 57, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
 h4 {
   font-size: 1.5em;
   line-height: 1;
   font-weight: 500;
 }
 
-/* line 61, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
+/* line 62, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
 h5 {
   font-size: 1.25em;
   line-height: 1;
   font-weight: 400;
 }
 
-/* line 66, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
+/* line 67, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
 h6 {
   font-size: 1.1em;
   line-height: 1;
   font-weight: 300;
 }
 
-/* line 72, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
+/* line 73, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
 p {
   margin: 0 0 1em;
   line-height: 1.4;
 }
 
-/* line 77, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
+/* line 78, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
 #Container {
   *zoom: 1;
   max-width: 450px;
@@ -565,6 +566,9 @@ p {
   padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
+  -webkit-box-shadow: -10px -10px 15px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: -10px -10px 15px rgba(0, 0, 0, 0.25);
+  box-shadow: -10px -10px 15px rgba(0, 0, 0, 0.25);
   background: white;
 }
 /* line 38, /Users/jyrkililja/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
@@ -574,24 +578,24 @@ p {
   clear: both;
 }
 @media (min-width: 920px) {
-  /* line 77, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
+  /* line 78, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
   #Container {
     max-width: 920px;
   }
 }
-/* line 81, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
+/* line 83, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
 #Container > header {
   float: left;
   width: 100%;
   position: relative;
 }
-/* line 86, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
+/* line 88, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
 #Container > header h1 {
   position: relative;
   margin: 25px 0;
   z-index: 2;
 }
-/* line 91, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
+/* line 93, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
 #Container > header h1 a {
   text-indent: -119988px;
   overflow: hidden;
@@ -604,25 +608,25 @@ p {
   display: block;
 }
 @media (min-width: 920px) {
-  /* line 86, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
+  /* line 88, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
   #Container > header h1 {
     margin-bottom: 0;
   }
 }
-/* line 101, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
+/* line 103, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
 #Container > header .carousel {
   margin: 25px -20px;
 }
 @media (min-width: 920px) {
-  /* line 101, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
+  /* line 103, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
   #Container > header .carousel {
     margin: 70px -20px -70px;
     top: -111px;
   }
-  /* line 108, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
+  /* line 110, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
   #Container > header .carousel:after {
     content: ' ';
-    background: url("../images/header-window.png") no-repeat left top;
+    background: url("../images/header-arch.png") no-repeat left top;
     position: absolute;
     top: -70px;
     right: 0;
@@ -631,7 +635,7 @@ p {
     border-bottom: 41px solid #f4e8b6;
   }
 }
-/* line 122, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
+/* line 124, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
 #Container > nav {
   font-family: 'brioso-pro-display', serif;
   font-weight: 300;
@@ -639,7 +643,7 @@ p {
   margin-bottom: 20px;
 }
 @media (min-width: 920px) {
-  /* line 122, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
+  /* line 124, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
   #Container > nav {
     width: 23.36957%;
     float: left;
@@ -647,43 +651,43 @@ p {
     margin-top: 1em;
   }
 }
-/* line 133, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
+/* line 135, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
 #Container > nav a {
   padding: .4em 0;
   display: block;
   border-top: 1px solid #d31f29;
 }
-/* line 139, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
+/* line 141, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
 #Container > nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
-  font-size: 1.5em;
+  font-size: 2em;
   line-height: 1;
 }
-/* line 146, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
+/* line 148, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
 #Container > nav ul ul {
   display: none;
   margin-left: 1em;
-  font-size: .8em;
+  font-size: .7em;
 }
-/* line 151, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
+/* line 153, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
 #Container > nav ul ul a {
   border-top: none;
 }
-/* line 158, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
+/* line 160, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
 #Container > nav li.active ul {
   display: block;
 }
-/* line 164, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
+/* line 166, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
 #Container > nav li:first-child a {
   border-top: 0;
 }
-/* line 169, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
+/* line 171, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
 #Container > nav > ul > li:first-child > a {
   padding-top: 0;
 }
-/* line 174, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
+/* line 176, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
 #Container > footer {
   *zoom: 1;
   margin-left: -20px;
@@ -701,7 +705,7 @@ p {
   display: table;
   clear: both;
 }
-/* line 182, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
+/* line 184, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
 #Container > footer p {
   margin: 0;
   padding: 1.5em 0;
@@ -709,7 +713,7 @@ p {
 }
 
 @media (min-width: 920px) {
-  /* line 190, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
+  /* line 192, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
   #InnerContainer {
     width: 74.45652%;
     float: right;
@@ -720,18 +724,18 @@ p {
 }
 
 @media (min-width: 920px) {
-  /* line 199, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
+  /* line 201, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
   div[role="main"] h3:first-child {
     margin-top: 0;
   }
 }
 
-/* line 206, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
+/* line 208, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
 #page-title {
   display: none;
 }
 @media (min-width: 920px) {
-  /* line 206, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
+  /* line 208, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
   #page-title {
     -webkit-transform: rotate(-12deg);
     -moz-transform: rotate(-12deg);
@@ -750,17 +754,17 @@ p {
     width: 300px;
   }
 }
-/* line 223, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
+/* line 225, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
 body.home #page-title {
   display: none;
 }
 
-/* line 228, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
+/* line 230, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
 #f-logo {
   display: none;
 }
 @media (min-width: 920px) {
-  /* line 232, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
+  /* line 234, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
   body.home #f-logo {
     text-indent: -119988px;
     overflow: hidden;
@@ -778,7 +782,7 @@ body.home #page-title {
   }
 }
 
-/* line 244, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
+/* line 246, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
 form label {
   *zoom: 1;
   display: block;
@@ -790,7 +794,7 @@ form label:after {
   display: table;
   clear: both;
 }
-/* line 249, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
+/* line 251, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
 form label b {
   width: 23.36957%;
   float: left;
@@ -798,7 +802,7 @@ form label b {
   display: inline;
   text-align: right;
 }
-/* line 254, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
+/* line 256, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
 form label input, form label textarea {
   width: 74.45652%;
   float: right;

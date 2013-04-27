@@ -29,6 +29,7 @@ html body {
     background-attachment: fixed;
     height: auto;
     min-height: 100%;
+    padding: 2em 0;
 }
 
 a {
@@ -76,6 +77,7 @@ p {
 
 #Container {
     @include container($total-columns, $breakpoint);
+    @include box-shadow(-10px -10px 15px rgba(0, 0, 0, 0.25));
     background: white;
 
     &>header {
@@ -107,7 +109,7 @@ p {
 
                 &:after {
                     content: ' ';
-                    background: url('../images/header-window.png') no-repeat left top;
+                    background: url('../images/header-arch.png') no-repeat left top;
                     position: absolute;
                     top: -70px;
                     right: 0;
@@ -140,13 +142,13 @@ p {
             list-style: none;
             margin: 0;
             padding: 0;
-            font-size: 1.5em;
+            font-size: 2em;
             line-height: 1;
 
             ul {
                 display: none;
                 margin-left: 1em;
-                font-size: .8em;
+                font-size: .7em;
 
                 a {
                     border-top: none;
