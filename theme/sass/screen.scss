@@ -5,13 +5,18 @@
 @import 'compass/css3';
 @import 'compass/typography/text/replacement';
 
-$total-columns: 4;
+$total-columns: 2;
 $column-width: 215px;
 $gutter-width: 20px;
 $grid-padding: 20px;
+$breakpoint: 4;
 
 $red: #d31f29;
 $beige: #f4e8b6;
+
+* {
+    @include box-sizing('border-box');
+}
 
 body, html {
     margin: 0;
@@ -44,27 +49,33 @@ h1, h2, h3, h4, h5, h6 {
 }
 h3 {
     font-size: 2em;
+    line-height: 1;
+    margin-bottom: .75em;
     font-weight: 500;
 }
 h4 {
     font-size: 1.5em;
+    line-height: 1;
     font-weight: 500;
 }
 h5 {
     font-size: 1.25em;
+    line-height: 1;
     font-weight: 400;
 }
 h6 {
     font-size: 1.1em;
+    line-height: 1;
     font-weight: 300;
 }
 
 p {
     margin: 0 0 1em;
+    line-height: 1.4;
 }
 
 #Container {
-    @include container;
+    @include container($total-columns, $breakpoint);
     background: white;
 
     &>header {
@@ -74,92 +85,167 @@ p {
 
         h1 {
             position: relative;
-            margin: 25px 0 0;
+            margin: 25px 0;
             z-index: 2;
 
             a {
                 @include replace-text-with-dimensions('logo.jpg');
                 display: block;
             }
-        }
 
-        .carousel {
-            margin: 70px (0 - $grid-padding) (-111px + 41px);
-            top: -111px;
-
-            &:after {
-                content: ' ';
-                background: url('../images/header-window.png') no-repeat left top;
-                position: absolute;
-                top: -70px;
-                right: 0;
-                bottom: -70px;
-                left: 0;
+            @include at-breakpoint($breakpoint) {
+                margin-bottom: 0;
             }
         }
 
-        h2.pagetitle {
-            @include transform(rotate(-12deg));
-            font-family: 'brioso-pro-display', serif;
-            font-weight: 300;
-            font-style: italic;
-            position: absolute;
-            top: 40px;
-            left: 670px;
-            color: $red;
-            margin: 0;
-            font-size: 50px;
-        }
+        .carousel {
+            margin: 25px (0 - $grid-padding);
 
-        #f-logo {
-            position: absolute;
-            top: 11px;
-            right: 0;
-            @include replace-text-with-dimensions('f-logo.png');
+            @include at-breakpoint($breakpoint) {
+                margin: 70px (0 - $grid-padding) (-111px + 41px);
+                top: -111px;
+
+                &:after {
+                    content: ' ';
+                    background: url('../images/header-window.png') no-repeat left top;
+                    position: absolute;
+                    top: -70px;
+                    right: 0;
+                    bottom: -41px;
+                    left: 0;
+                    border-bottom: 41px solid $beige;
+                }
+            }
         }
     }
 
     &>nav {
-        @include span-columns(1);
+        @include at-breakpoint($breakpoint) {
+            @include span-columns(1);
+            margin-top: 1em;
+        }
+
         font-family: 'brioso-pro-display', serif;
         font-weight: 300;
         font-style: italic;
+        margin-bottom: 20px;
+
+        a {
+            padding: .4em 0;
+            display: block;
+            border-bottom: 1px solid $red;
+        }
 
         ul {
             list-style: none;
             margin: 0;
             padding: 0;
-            font-size: 32px;
+            font-size: 1.5em;
+            line-height: 1;
+
+            ul {
+                display: none;
+                margin-left: 1em;
+                font-size: .8em;
+
+                a {
+                    border-bottom: none;
+                }
+            }
         }
 
-        a {
-            padding: .1em 0;
-            display: block;
-            border-bottom: 1px solid $red;
+        li.active {
+            ul {
+                display: block;
+            }
+        }
+
+        &>ul>li:first-child>a {
+            padding-top: 0;
         }
     }
 
     &>footer {
+        @include pie-clearfix;
         @include bleed($grid-padding);
         clear: both;
         background: $beige;
         color: $red;
-        height: 4em;
-        line-height: 4em;
         text-align: center;
 
         p {
             margin: 0;
+            padding: 1.5em 0;
+            line-height: 1.5;
         }
     }
 }
 
 #InnerContainer {
-    @include span-columns(3 omega);
+    @include at-breakpoint($breakpoint) {
+        @include span-columns(3 omega);
+        margin-top: 1em;
+    }
 }
 
 div[role="main"] {
     :first-child {
-        margin-top: 0;
+        @include at-breakpoint($breakpoint) {
+            margin-top: 0;
+        }
+    }
+}
+
+#page-title {
+    display: none;
+
+    @include at-breakpoint($breakpoint) {
+        @include transform(rotate(-12deg));
+        display: block;
+        font-family: 'brioso-pro-display', serif;
+        font-weight: 300;
+        font-style: italic;
+        margin: 0;
+        font-size: 50px;
+        position: absolute;
+        top: 33px;
+        left: 600px;
+        width: 300px;
+    }
+
+    body.home & {
+        display: none;
+    }
+}
+
+#f-logo {
+    display: none;
+
+    @include at-breakpoint($breakpoint) {
+        body.home & {
+            @include replace-text-with-dimensions('f-logo.png');
+            display: block;
+            position: absolute;
+            top: 11px;
+            right: 0;
+            z-index: 1;
+        }
+    }
+}
+
+form {
+    label {
+        @include pie-clearfix;
+        display: block;
+        margin: 10px 0;
+
+        b {
+            @include span-columns(1, 4);
+            text-align: right;
+        }
+
+        input, textarea {
+            @include span-columns(3 omega, 4);
+        }
     }
 }
