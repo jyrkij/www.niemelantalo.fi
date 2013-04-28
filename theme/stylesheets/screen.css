@@ -877,8 +877,12 @@ p {
 body.home #page-title {
   display: none;
 }
+/* line 266, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
+.lt-ie9 #page-title {
+  display: none;
+}
 
-/* line 267, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
+/* line 271, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
 #f-logo {
   text-indent: -119988px;
   overflow: hidden;
@@ -893,18 +897,18 @@ body.home #page-title {
   right: 0;
   z-index: 1;
 }
-/* line 279, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
+/* line 283, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
 body.home #f-logo {
   display: block;
 }
 @media (min-width: 920px) {
-  /* line 267, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
+  /* line 271, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
   #f-logo {
     width: 40px;
     height: 66px;
     top: 0px;
   }
-  /* line 288, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
+  /* line 292, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
   body.home #f-logo {
     text-indent: -119988px;
     overflow: hidden;
@@ -927,7 +931,7 @@ body.home #f-logo {
   height: 66px;
   top: 0px;
 }
-/* line 288, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
+/* line 292, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
 body.home .lt-ie9 #f-logo {
   text-indent: -119988px;
   overflow: hidden;
@@ -944,7 +948,7 @@ body.home .lt-ie9 #f-logo {
   z-index: 1;
 }
 
-/* line 300, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
+/* line 304, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
 form label {
   *zoom: 1;
   display: block;
@@ -956,7 +960,7 @@ form label:after {
   display: table;
   clear: both;
 }
-/* line 305, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
+/* line 309, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
 form label b {
   width: 23.36957%;
   float: left;
@@ -964,7 +968,7 @@ form label b {
   display: inline;
   text-align: right;
 }
-/* line 310, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
+/* line 314, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
 form label input, form label textarea {
   width: 74.45652%;
   float: right;

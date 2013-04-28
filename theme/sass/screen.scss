@@ -262,6 +262,10 @@ div[role="main"] {
     body.home & {
         display: none;
     }
+
+    .lt-ie9 & {
+        display: none;
+    }
 }
 
 #f-logo {
