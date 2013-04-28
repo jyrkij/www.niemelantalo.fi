@@ -102,17 +102,28 @@ p {
             margin: 25px 0;
             z-index: 2;
             display: block;
-            width: image-width('logo.jpg');
-            height: image-height('logo.jpg');
+            width: image-width('logo.jpg') / 2;
+            height: image-height('logo.jpg') / 2;
 
             a {
-                @include replace-text-with-dimensions('logo.jpg');
+                @include hide-text;
+                background: url(../images/logo.jpg);
+                background-size: 100%;
+                width: image-width('logo.jpg') / 2;
+                height: image-height('logo.jpg') / 2;
                 display: block;
+
+                @include at-breakpoint($breakpoint lt-ie9) {
+                    width: image-width('logo.jpg');
+                    height: image-height('logo.jpg');
+                }
             }
 
             @include at-breakpoint($breakpoint lt-ie9) {
-                top: 25px;
                 margin: 0;
+                top: 25px;
+                width: image-width('logo.jpg');
+                height: image-height('logo.jpg');
             }
         }
 
@@ -254,9 +265,26 @@ div[role="main"] {
 }
 
 #f-logo {
+    @include hide-text;
+    background: url(../images/f-logo.png);
+    background-size: 100%;
+    width: image-width('f-logo.png') / 2;
+    height: image-height('f-logo.png') / 2;
     display: none;
+    position: absolute;
+    top: 32px;
+    right: 0;
+    z-index: 1;
+
+    body.home & {
+        display: block;
+    }
 
     @include at-breakpoint($breakpoint lt-ie9) {
+        width: image-width('f-logo.png');
+        height: image-height('f-logo.png');
+        top: 0px;
+
         body.home & {
             @include replace-text-with-dimensions('f-logo.png');
             display: block;
