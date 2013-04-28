@@ -99,18 +99,20 @@ p {
 
         h1 {
             position: relative;
-            top: 10px;
-            margin: 0;
+            margin: 25px 0;
             z-index: 2;
-            display: inline-block;
+            display: block;
+            width: image-width('logo.jpg');
+            height: image-height('logo.jpg');
 
             a {
                 @include replace-text-with-dimensions('logo.jpg');
-                display: inline-block;
+                display: block;
             }
 
             @include at-breakpoint($breakpoint lt-ie9) {
-                margin-bottom: 0;
+                top: 25px;
+                margin: 0;
             }
         }
 
@@ -118,18 +120,18 @@ p {
             margin: 25px (0 - $grid-padding);
 
             @include at-breakpoint($breakpoint lt-ie9) {
-                margin: 70px (0 - $grid-padding) (-111px + 41px);
-                top: -111px;
+                margin-top: 0;
+                margin-bottom: 0;
+                border-bottom: 41px solid $beige;
 
                 &:after {
                     content: ' ';
                     background: url('../images/header-arch.png') no-repeat left top;
                     position: absolute;
-                    top: -70px;
+                    top: -86px;
                     right: 0;
-                    bottom: -41px;
+                    bottom: 0px;
                     left: 0;
-                    border-bottom: 41px solid $beige;
                 }
             }
         }
@@ -259,7 +261,7 @@ div[role="main"] {
             @include replace-text-with-dimensions('f-logo.png');
             display: block;
             position: absolute;
-            top: 11px;
+            top: 15px;
             right: 0;
             z-index: 1;
         }
