@@ -582,6 +582,11 @@ p {
     max-width: 920px;
   }
 }
+/* line 91, /Users/jyrkililja/.rvm/gems/ruby-1.9.3-p392/gems/susy-1.0.8/sass/susy/_media.scss */
+.lt-ie9 #Container {
+  max-width: 920px;
+  _width: 920px;
+}
 /* line 83, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
 #Container > header {
   float: left;
@@ -614,6 +619,10 @@ p {
     margin-bottom: 0;
   }
 }
+/* line 91, /Users/jyrkililja/.rvm/gems/ruby-1.9.3-p392/gems/susy-1.0.8/sass/susy/_media.scss */
+.lt-ie9 #Container > header h1 {
+  margin-bottom: 0;
+}
 /* line 105, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
 #Container > header .carousel {
   margin: 25px -20px;
@@ -636,6 +645,22 @@ p {
     border-bottom: 41px solid #f4e8b6;
   }
 }
+/* line 91, /Users/jyrkililja/.rvm/gems/ruby-1.9.3-p392/gems/susy-1.0.8/sass/susy/_media.scss */
+.lt-ie9 #Container > header .carousel {
+  margin: 70px -20px -70px;
+  top: -111px;
+}
+/* line 112, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
+.lt-ie9 #Container > header .carousel:after {
+  content: ' ';
+  background: url("../images/header-arch.png") no-repeat left top;
+  position: absolute;
+  top: -70px;
+  right: 0;
+  bottom: -41px;
+  left: 0;
+  border-bottom: 41px solid #f4e8b6;
+}
 /* line 126, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
 #Container > nav {
   font-family: 'brioso-pro-display', serif;
@@ -652,6 +677,14 @@ p {
     margin-top: 2em;
   }
 }
+/* line 91, /Users/jyrkililja/.rvm/gems/ruby-1.9.3-p392/gems/susy-1.0.8/sass/susy/_media.scss */
+.lt-ie9 #Container > nav {
+  width: 23.36957%;
+  float: left;
+  margin-right: 2.17391%;
+  display: inline;
+  margin-top: 2em;
+}
 /* line 137, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
 #Container > nav a {
   padding: .3em 0 .2em;
@@ -663,6 +696,10 @@ p {
   #Container > nav a {
     width: 80%;
   }
+}
+/* line 91, /Users/jyrkililja/.rvm/gems/ruby-1.9.3-p392/gems/susy-1.0.8/sass/susy/_media.scss */
+.lt-ie9 #Container > nav a {
+  width: 80%;
 }
 /* line 147, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
 #Container > nav ul {
@@ -734,12 +771,26 @@ p {
     margin-bottom: 2em;
   }
 }
+/* line 91, /Users/jyrkililja/.rvm/gems/ruby-1.9.3-p392/gems/susy-1.0.8/sass/susy/_media.scss */
+.lt-ie9 #InnerContainer {
+  width: 74.45652%;
+  float: right;
+  margin-right: 0;
+  *margin-left: -20px;
+  display: inline;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
 
 @media (min-width: 920px) {
   /* line 212, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
   div[role="main"] h3:first-child {
     margin-top: 0;
   }
+}
+/* line 91, /Users/jyrkililja/.rvm/gems/ruby-1.9.3-p392/gems/susy-1.0.8/sass/susy/_media.scss */
+.lt-ie9 div[role="main"] h3:first-child {
+  margin-top: 0;
 }
 
 /* line 219, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
@@ -767,6 +818,22 @@ p {
     text-align: right;
   }
 }
+/* line 91, /Users/jyrkililja/.rvm/gems/ruby-1.9.3-p392/gems/susy-1.0.8/sass/susy/_media.scss */
+.lt-ie9 #page-title {
+  -ms-transform: rotate(-7deg);
+  transform: rotate(-7deg);
+  display: block;
+  font-family: 'brioso-pro-display', serif;
+  font-weight: 300;
+  font-style: italic;
+  margin: 0;
+  font-size: 2.25em;
+  position: absolute;
+  top: 55px;
+  right: 20px;
+  width: 300px;
+  text-align: right;
+}
 /* line 237, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
 body.home #page-title {
   display: none;
@@ -793,6 +860,22 @@ body.home #page-title {
     right: 0;
     z-index: 1;
   }
+}
+/* line 246, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */
+body.home .lt-ie9 #f-logo {
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  background-image: url('/theme/images/f-logo.png?1366459067');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  width: 40px;
+  height: 66px;
+  display: block;
+  position: absolute;
+  top: 11px;
+  right: 0;
+  z-index: 1;
 }
 
 /* line 258, /Users/jyrkililja/code/niemelantalo/theme/sass/screen.scss */

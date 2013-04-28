@@ -76,7 +76,7 @@ p {
 }
 
 #Container {
-    @include container($total-columns, $breakpoint);
+    @include container($total-columns, $breakpoint lt-ie9);
     @include box-shadow(-10px -10px 15px rgba(0, 0, 0, 0.25));
     background: white;
 
@@ -97,7 +97,7 @@ p {
                 display: inline-block;
             }
 
-            @include at-breakpoint($breakpoint) {
+            @include at-breakpoint($breakpoint lt-ie9) {
                 margin-bottom: 0;
             }
         }
@@ -105,7 +105,7 @@ p {
         .carousel {
             margin: 25px (0 - $grid-padding);
 
-            @include at-breakpoint($breakpoint) {
+            @include at-breakpoint($breakpoint lt-ie9) {
                 margin: 70px (0 - $grid-padding) (-111px + 41px);
                 top: -111px;
 
@@ -124,7 +124,7 @@ p {
     }
 
     &>nav {
-        @include at-breakpoint($breakpoint) {
+        @include at-breakpoint($breakpoint lt-ie9) {
             @include span-columns(1);
             margin-top: 2em;
         }
@@ -139,7 +139,7 @@ p {
             display: block;
             border-top: 1px solid $red;
 
-            @include at-breakpoint($breakpoint) {
+            @include at-breakpoint($breakpoint lt-ie9) {
                 width: 80%;
             }
         }
@@ -201,7 +201,7 @@ p {
 }
 
 #InnerContainer {
-    @include at-breakpoint($breakpoint) {
+    @include at-breakpoint($breakpoint lt-ie9) {
         @include span-columns(3 omega);
         margin-top: 2em;
         margin-bottom: 2em;
@@ -210,7 +210,7 @@ p {
 
 div[role="main"] {
     h3:first-child {
-        @include at-breakpoint($breakpoint) {
+        @include at-breakpoint($breakpoint lt-ie9) {
             margin-top: 0;
         }
     }
@@ -219,7 +219,7 @@ div[role="main"] {
 #page-title {
     display: none;
 
-    @include at-breakpoint($breakpoint) {
+    @include at-breakpoint($breakpoint lt-ie9) {
         @include transform(rotate(-7deg));
         display: block;
         font-family: 'brioso-pro-display', serif;
@@ -242,7 +242,7 @@ div[role="main"] {
 #f-logo {
     display: none;
 
-    @include at-breakpoint($breakpoint) {
+    @include at-breakpoint($breakpoint lt-ie9) {
         body.home & {
             @include replace-text-with-dimensions('f-logo.png');
             display: block;
