@@ -10,6 +10,8 @@ $column-width: 215px;
 $gutter-width: 20px;
 $grid-padding: 20px;
 $breakpoint: 4;
+$wide-mobile-break: 2;
+$ipad-break: 3;
 
 $red: #d31f29;
 $red-darker: darken($red, 15%);
@@ -26,11 +28,20 @@ body, html {
 }
 
 html body {
-    background: url(../images/bg.jpg) no-repeat center top;
-    background-attachment: fixed;
+    background: $red-darker;
+    padding: 2em 0 0;
+
+    @include at-breakpoint($wide-mobile-break lt-ie9) {
+        padding-bottom: 2em;
+    }
+
+    @include at-breakpoint($ipad-break lt-ie9) {
+        background: url(../images/bg.jpg) no-repeat center top;
+        background-attachment: fixed;
+    }
+
     height: auto;
     min-height: 100%;
-    padding: 2em 0;
 }
 
 a {
