@@ -12,6 +12,7 @@ $grid-padding: 20px;
 $breakpoint: 4;
 
 $red: #d31f29;
+$red-darker: darken($red, 15%);
 $beige: #f4e8b6;
 
 * {
@@ -37,7 +38,7 @@ a {
     color: $red;
 
     &:hover, &:active, &:focus {
-        color: darken($red, 15%);
+        color: $red-darker;
         text-decoration: none;
     }
 }
@@ -169,7 +170,7 @@ p {
 
             &>a {
                 font-weight: 500;
-                color: darken($red, 15%);
+                color: $red-darker;
             }
         }
 
