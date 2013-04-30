@@ -218,9 +218,22 @@ p {
         text-align: center;
 
         p {
+            @include pie-clearfix;
             margin: 0;
             padding: 1.5em 0;
             line-height: 1.5;
+        }
+
+        .facebook-link {
+            float: left;
+            clear: both;
+            width: 100%;
+        }
+
+        @include at-breakpoint($breakpoint lt-ie9) {
+            .facebook-link {
+                display: none;
+            }
         }
     }
 }
@@ -297,6 +310,17 @@ div[role="main"] {
             right: 0;
             z-index: 1;
         }
+    }
+}
+
+#facebook-link {
+    display: none;
+
+    @include at-breakpoint($breakpoint lt-ie9) {
+        display: block;
+        position: absolute;
+        bottom: 11px;
+        right: 0;
     }
 }
 
