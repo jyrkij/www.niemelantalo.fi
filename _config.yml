@@ -1,9 +1,37 @@
 url: /
-permalink: pretty
+permalink: date
 name: B&B Niemelän talo
 menu:
     -
         text: Etusivu
         url: /
+    -
+        text: Majoitus
+        url: /majoitus
+        children:
+            -
+                text: Niemelän talo
+                url: /majoitus/niemelän-talo.html
+            -
+                text: Rivitalo
+                url: /majoitus/rivitalo.html
+    -
+        text: Tilaisuudet
+        url: /tilaisuudet.html
+    -
+        text: Sauna
+        url: /sauna.html
+    -
+        text: Hinnasto
+        url: /hinnasto.html
+    -
+        text: Yhteystiedot
+        url: /yhteystiedot.html
+    -
+        text: Ota yhteyttä
+        url: /ota-yhteyttä.html
+    -
+        text: Linkit
+        url: /linkit.html
 
 exclude: [ 'sass', 'config.rb', 'Procfile', 'Thumbs.db' ]
