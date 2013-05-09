@@ -1,0 +1,9 @@
+url: /
+permalink: pretty
+name: B&B Niemelän talo
+menu:
+    -
+        text: Etusivu
+        url: /
+
+exclude: [ 'sass', 'config.rb', 'Procfile', 'Thumbs.db' ]
