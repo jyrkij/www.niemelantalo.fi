@@ -79,10 +79,10 @@
                 <div id="f-logo"></div>
                 <div class="carousel">
                     <div class="carousel-inner">
-                        {% if header_images %}
-                            {% for image in header_images %}
+                        {% if page.header_images %}
+                            {% for image in page.header_images %}
                                 <div class="item{% if forloop.first %} active{% endif %}">
-                                    <img src="{{image.src}}" alt="">
+                                    <img src="/assets/images/header-images/{{image.file}}" alt="">
                                 </div>
                             {% endfor %}
                         {% else %}
