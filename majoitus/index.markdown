@@ -1,0 +1,20 @@
+---
+title: Majoitus
+layout: default
+header_images:
+    - file: majoitus1.jpg
+    - file: majoitus2.jpg
+    - file: majoitus3.jpg
+    - file: majoitus4.jpg
+    - file: majoitus5.jpg
+---
+
+### Majoituspaikat
+
+Niemelän talon päärakennus 11+2 hengelle  
+Niemelänrivi 20+4 hengelle  
+Ullakkoasunnot 8+1 hengelle
+
+**Kaikkiaan majoituspaikkoja on yli 40 hengelle.**
+
+Nykyaikainen keittiö on vapaasti vieraiden käytettävissä. Aamupala tarjoillaan erikseen tilattaessa.
