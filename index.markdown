@@ -1,0 +1,37 @@
+---
+title: Etusivu
+layout: default
+header_images:
+    - file: etusivu-kuva4.jpg
+    - file: etusivu-kuva1.jpg
+    - file: etusivu-kuva2.jpg
+    - file: etusivu-kuva3.jpg
+---
+
+### Tervetuloa Niemelän taloon!
+
+Niemelän talo sijaitsee Rovaniemellä rauhallisessa kaupunkiympäristössä Kemijoen läheisyydessä.
+
+#### Majoitusvaihtoehdot
+
+Niemelän talon vanha päärakennus  
+Niemelän rivitalo
+
+Majoituspaikkoja on enimmillään noin 40 hengelle. Voimme majoittaa myös isoja ryhmiä.
+
+Tarjoamme asuntoja myös ns. sijaisasunnoiksi esimerkiksi oman asunnon remontin ajaksi.
+
+#### Niemelän talon historiaa
+
+Niemelän talon pihapiirin keskipiste on 1800-luvulla rakennettu vanha Niemelän talo.
+
+Talo on harvinainen suojeltu peräpohjalainen hirsitalo, joka on kunnostettu perinteiseen asuunsa 2006.
+
+Talossa näkyy aikaisempien sukupolvien rakentamistaito ja asumisen jälki. Niemelän talo on alunperin ollut maatilan päärakennus.
+
+Myöhemmin aikojen saatossa se on toiminut mm. kansakouluna 1950-luvulle asti.
+Se on lisäksi osa sodanaikaista saksalaishistoriaa. Sodan aikana talo on toiminut mm. saksalaisten sotasairaalana.
+
+Niemelän talo on kokonaan vieraiden käytössä.
+
+Nykyaikainen keittiö on vapaasti vieraiden käytettävissä. Aamupala tarjoillaan erikseen tilattaessa.
