@@ -1,4 +1,4 @@
-{% assign stripped_page_url = page.url | replace: 'index.html', '' %}
+{% assign stripped_page_url = page.url | replace: 'index.html', '' | replace: '.html', '' %}
 {% assign parts = stripped_page_url | split: '/' %}
 {% assign current = false %}
 {% if menu_item.url == page.url or menu_item.url == stripped_page_url %}
