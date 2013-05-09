@@ -187,11 +187,13 @@ p {
             }
         }
 
-        li.active {
+        li.current, li.path {
             ul {
                 display: block;
             }
+        }
 
+        li.current {
             &>a {
                 font-weight: 500;
                 color: $red-darker;
