@@ -1,0 +1,33 @@
+---
+title: Linkit
+layout: default
+---
+
+### Linkit oheispalveluihin
+
+#### Nähtävyydet
+
+ - [Arktikum](http://www.arktikum.fi/)
+ - [Napapiiri](http://www.santaclauslive.com/)
+ - [Porofarmi](http://www.porofarmi.fi/)
+ - [Luontopolut](http://www.luontoon.fi/retkikohteet/retkeilyalueet/napapiiri/Sivut/Default.aspx)
+ - [Ranuan eläinpuisto](http://www.ranuazoo.com/)
+
+#### Rovaniemi
+
+ - [Tapahtumakalenteri](http://www.visitrovaniemi.fi/Suomeksi/Kayntikohteet/Tapahtumat)
+ - [Rovaniemi matkailijalle](http://www.visitrovaniemi.fi/Suomeksi)
+ - [Lappi matkailijalle](http://www.lappi.fi/matkailu)
+ - [Matkailuneuvonta](http://www.visitrovaniemi.fi/Suomeksi/Hyva-tietaa/Matkailuneuvonta)
+
+#### Aktiviteetit
+
+ - [Kesällä](http://www.visitrovaniemi.fi/Suomeksi/Aktiviteetit/Kesa)
+ - [Talvella](http://www.visitrovaniemi.fi/Suomeksi/Aktiviteetit/Talvi)
+ - [Santasport](http://www.santasport.fi/fi/ounasvaara-resort)
+ - [Ounasvaara](http://www.ounasvaara.fi/)
+
+#### Yhteistyökumppanit
+
+ - [Vihreä Citrus - pitopalvelu](http://www.vihreacitrus.fi/)
+ - [Ruokahuone Mariza](http://www.ruokahuonemariza.fi/)
