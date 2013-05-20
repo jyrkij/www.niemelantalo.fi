@@ -48,7 +48,7 @@ Klo. 12–24: 460 €. Lyhyemmät ajat (alle 4 h) 360 €.
 
 ### Pitopalvelu
 
-Pitopalvelusta voi sopia suoraan Lounasravintola Vihreä Citruksen tai Ruokahuone Marizan kanssa.
+Pitopalvelusta voi sopia suoraan [Lounasravintola Vihreä Citruksen](http://www.vihreacitrus.fi/) tai [Ruokahuone Marizan](http://www.ruokahuonemariza.fi/) kanssa.
 
 ### Saunaosasto
 
