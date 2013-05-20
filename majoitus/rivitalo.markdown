@@ -8,7 +8,7 @@ header_images:
 
 ### Niemelänrivi
 
-Rivitalossa on neljä nykyaikaisesti varusteltua 55 m2 kaksiota terasseineen.
+Rivitalossa on neljä nykyaikaisesti varusteltua 55 m<sup>2</sup> kaksiota terasseineen.
 
 Jokaisessa huoneistossa on makuutilat viidelle hengelle.
 
@@ -22,7 +22,7 @@ Kaikkiaan rivitaloon voidaan majoittaa 20+4 henkeä.
 
 ### Ullakkohuoneistot
 
-Huoneistot sijaitsevat rivitalon yläkerrassa ja ovat kooltaan 40 m2 ja 45 m2.
+Huoneistot sijaitsevat rivitalon yläkerrassa ja ovat kooltaan 40 m<sup>2</sup> ja 45 m<sup>2</sup>.
 
 Molemmissa on petipaikkoja neljälle. Kumpaankin on mahdollista sijoittaa yksi tai kaksi lisävuodetta.
 

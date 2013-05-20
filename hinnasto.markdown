@@ -20,15 +20,15 @@ Petipaikka 45 €/hlö/vrk. 2–12-vuotiaat 25 €/hlö/vrk.
 
 #### Rivitalo
 
-Huoneisto (55,5 m2) 170 €/vrk, 1.200 €/viikko.
+Huoneisto (55,5 m<sup>2</sup>) 170 €/vrk, 1.200 €/viikko.
 
 Lisävuode 25 €/vrk.
 
 #### Ullakkohuoneisto
 
-45 m2 130 €/vrk, 800 €/viikko.
+45 m<sup>2</sup> 130 €/vrk, 800 €/viikko.
 
-40 m2 130 €/vrk, 800 €/viikko.
+40 m<sup>2</sup> 130 €/vrk, 800 €/viikko.
 
 Lisävuode 25 €/vrk.
 
