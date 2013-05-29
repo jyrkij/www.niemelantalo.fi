@@ -1,7 +1,6 @@
 ---
 title: Ota yhteyttä
 layout: default
-permalink: "/ota-yhteytta/kiitos.html"
 ---
 
 ### Kiitos yhteydenotostasi

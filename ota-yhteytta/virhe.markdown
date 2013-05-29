@@ -1,7 +1,6 @@
 ---
 title: Ota yhteyttä
 layout: default
-permalink: "/ota-yhteytta/virhe.html"
 ---
 
 ### Hupsista, tapahtui virhe
