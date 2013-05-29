@@ -17,9 +17,7 @@ $red: #d31f29;
 $red-darker: darken($red, 15%);
 $beige: #f4e8b6;
 
-* {
-    @include box-sizing('border-box');
-}
+@include border-box-sizing;
 
 body, html {
     margin: 0;
