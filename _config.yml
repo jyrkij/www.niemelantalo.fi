@@ -28,6 +28,9 @@ menu:
         text: Yhteystiedot
         url: /yhteystiedot.html
     -
+        text: Ota yhteyttä
+        url: /ota-yhteyttä.html
+    -
         text: Linkit
         url: /linkit.html
 
