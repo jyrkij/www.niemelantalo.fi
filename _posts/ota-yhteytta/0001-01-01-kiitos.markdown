@@ -1,12 +1,12 @@
 ---
 title: Ota yhteyttä
 layout: default
+permalink: /ota-yhteytta/kiitos.html
 ---
 
-### Hupsista, tapahtui virhe
+### Kiitos yhteydenotostasi
 
-Muistithan täyttää kaikki kentät ja sähköpostiosoitteesi on oikein?
-<a href="javascript:history.back();">Palaa takaisin</a> ja kokeile uudelleen.
+Palaamme asiaan mahdollisimman pian.
 
 <script>
     ga('send', 'event', 'contact-form', 'thank-you-reached');
