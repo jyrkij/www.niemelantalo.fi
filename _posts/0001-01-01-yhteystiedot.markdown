@@ -3,6 +3,7 @@ title: Yhteystiedot
 layout: default
 header_images:
     - file: default.jpg
+permalink: /yhteystiedot.html
 ---
 
 ### Sijainti ja kartat
