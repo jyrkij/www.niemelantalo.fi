@@ -2,10 +2,11 @@
 title: Hinnasto
 layout: default
 header_images:
-- file: etusivu-kuva4.jpg
-- file: etusivu-kuva1.jpg
-- file: etusivu-kuva2.jpg
-- file: etusivu-kuva3.jpg
+    - file: etusivu-kuva4.jpg
+    - file: etusivu-kuva1.jpg
+    - file: etusivu-kuva2.jpg
+    - file: etusivu-kuva3.jpg
+permalink: /hinnasto.html
 ---
 
 ### Majoitushinnasto
