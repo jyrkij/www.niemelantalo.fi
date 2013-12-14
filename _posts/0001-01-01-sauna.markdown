@@ -6,6 +6,7 @@ header_images:
     - file: sauna2.jpg
     - file: sauna3.jpg
     - file: sauna4.jpg
+permalink: /sauna.html
 ---
 
 ### Sauna
