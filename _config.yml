@@ -35,3 +35,4 @@ menu:
         url: /linkit.html
 
 exclude: [ 'sass', 'config.rb', 'Procfile', 'Thumbs.db' ]
+relative_permalinks: false
