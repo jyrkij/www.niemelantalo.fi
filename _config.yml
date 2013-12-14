@@ -36,3 +36,16 @@ menu:
 
 exclude: [ 'sass', 'config.rb', 'Procfile', 'Thumbs.db' ]
 relative_permalinks: false
+prose:
+    rooturl: _posts
+    metadata:
+        _posts:
+            - name: layout
+              field:
+                element: hidden
+                value: default
+            - name: permalink
+              field:
+                element: text
+                label: URL
+                value: 
