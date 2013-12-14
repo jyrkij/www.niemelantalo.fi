@@ -6,6 +6,7 @@ header_images:
     - file: tilaisuudet2.jpg
     - file: tilaisuudet3.jpg
     - file: tilaisuudet4.jpg
+permalink: /tilaisuudet.html
 ---
 
 ### Juhlat, tilaisuudet, kokoukset
