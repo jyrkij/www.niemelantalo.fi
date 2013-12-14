@@ -4,6 +4,7 @@ layout: default
 header_images:
     - file: rivitalo-1.jpg
     - file: rivitalo-2.jpg
+permalink: /majoitus/rivitalo.html
 ---
 
 ### Niemelänrivi
