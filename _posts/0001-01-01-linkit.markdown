@@ -1,6 +1,7 @@
 ---
 title: Linkit
 layout: default
+permalink: /linkit.html
 ---
 
 ### Linkit oheispalveluihin
