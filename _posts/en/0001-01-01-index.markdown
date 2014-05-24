@@ -1,0 +1,15 @@
+---
+title: Home
+layout: default
+header_images:
+    - file: etusivu-kuva4.jpg
+    - file: etusivu-kuva1.jpg
+    - file: etusivu-kuva2.jpg
+    - file: etusivu-kuva3.jpg
+categories:
+    - en
+permalink: /en/index.html
+lang: en
+---
+
+### Welcome to Niemelän talo!
