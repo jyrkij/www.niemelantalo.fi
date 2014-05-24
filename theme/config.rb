@@ -24,3 +24,16 @@ javascripts_dir = "javascripts"
 # sass-convert -R --from scss --to sass sass scss && rm -rf sass && mv scss sass
 
 require 'susy'
+require 'autoprefixer-rails'
+require 'csso'
+
+on_stylesheet_saved do |file|
+    css = File.read(file)
+    File.open(file, 'w') do |io|
+        # Produces optimized CSS ready for production
+        #io << Csso.optimize(AutoprefixerRails.process(css).css, true)
+
+        # Produces development friendly CSS
+        io << AutoprefixerRails.process(css)
+    end
+end
