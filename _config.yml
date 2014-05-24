@@ -49,3 +49,12 @@ prose:
                 element: text
                 label: URL
                 value: 
+            - name: lang
+              field:
+                element: select
+                label: Kieli
+                options:
+                  - name: Suomi
+                    value: fi
+                  - name: Englanti
+                    value: en
