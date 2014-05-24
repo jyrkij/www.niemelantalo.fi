@@ -2,6 +2,7 @@
 title: Ota yhteyttä
 layout: default
 permalink: /ota-yhteytta/kiitos.html
+lang: fi
 ---
 
 ### Kiitos yhteydenotostasi

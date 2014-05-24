@@ -8,6 +8,7 @@ header_images:
     - file: majoitus4.jpg
     - file: majoitus5.jpg
 permalink: /majoitus
+lang: fi
 ---
 
 ### Majoituspaikat

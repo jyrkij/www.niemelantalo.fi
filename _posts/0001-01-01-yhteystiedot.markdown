@@ -4,6 +4,7 @@ layout: default
 header_images:
     - file: default.jpg
 permalink: /yhteystiedot.html
+lang: fi
 ---
 
 ### Sijainti ja kartat

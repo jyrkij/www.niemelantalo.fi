@@ -7,6 +7,7 @@ header_images:
     - file: tilaisuudet3.jpg
     - file: tilaisuudet4.jpg
 permalink: /tilaisuudet.html
+lang: fi
 ---
 
 ### Juhlat, tilaisuudet, kokoukset

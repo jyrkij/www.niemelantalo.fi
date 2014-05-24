@@ -2,6 +2,7 @@
 title: Linkit
 layout: default
 permalink: /linkit.html
+lang: fi
 ---
 
 ### Linkit oheispalveluihin

@@ -6,6 +6,7 @@ header_images:
     - file: etusivu-kuva1.jpg
     - file: etusivu-kuva2.jpg
 permalink: "/majoitus/niemelän-talo.html"
+lang: fi
 ---
 
 ### Vanha Niemelän talo

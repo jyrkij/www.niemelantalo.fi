@@ -6,8 +6,8 @@ header_images:
     - file: etusivu-kuva1.jpg
     - file: etusivu-kuva2.jpg
     - file: etusivu-kuva3.jpg
-lang: fi
 permalink: /index.html
+lang: fi
 ---
 
 ### Tervetuloa Niemelän taloon!
