@@ -36,6 +36,7 @@ menu:
 
 exclude: [ 'sass', 'config.rb', 'Procfile', 'Thumbs.db' ]
 relative_permalinks: false
+markdown: kramdown
 prose:
     rooturl: _posts
     metadata:
